@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>Welcome to My Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section with Image -->
+    <section id="hero">
+        <div class="container">
+            <h2>Creating Beautiful and Functional Websites</h2>
+            <p>Innovative solutions for web development, design, and user experience</p>
+            <a href="#contact" class="btn">Get in Touch</a>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <p>Hello! I'm a passionate web developer with a focus on creating clean, modern websites. I have experience in front-end and back-end development, and I'm always eager to learn new technologies and improve my skills.</p>
+                <img src="https://images.pexels.com/photos/30007901/pexels-photo-30007901/free-photo-of-thoughtful-man-in-grey-coat-outdoors.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Profile Picture">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <h2>Services</h2>
+            <div class="service-card">
+                <h3>Web Development</h3>
+                <img src="https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Web Development">
+                <p>I specialize in building responsive websites using HTML, CSS, and JavaScript, with a focus on user experience.</p>
+            </div>
+            <div class="service-card">
+                <h3>UI/UX Design</h3>
+                <img src="https://images.pexels.com/photos/196645/pexels-photo-196645.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="UI/UX Design">
+                <p>Creating intuitive and engaging user interfaces that are easy to navigate and visually appealing.</p>
+            </div>
+            <div class="service-card">
+                <h3>SEO Optimization</h3>
+                <img src="https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="SEO Optimization">
+                <p>Improving website visibility and ranking in search engines using proven SEO strategies.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section with Images -->
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-card">
+                <h3>Project 1: E-commerce Website</h3>
+                <img src="https://images.pexels.com/photos/7667442/pexels-photo-7667442.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="E-commerce Website">
+                <p>Built a fully functional e-commerce site with a custom shopping cart, product pages, and checkout system.</p>
+                <a href="#">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Project 2: Portfolio Website</h3>
+                <img src="https://images.pexels.com/photos/1111692/pexels-photo-1111692.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Portfolio Website">
+                <p>Created a personal portfolio website to showcase my skills, projects, and experience.</p>
+                <a href="#">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Project 3: Blog Platform</h3>
+                <img src="https://images.pexels.com/photos/3098619/pexels-photo-3098619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Blog Platform">
+                <p>Developed a content management system where users can create and manage their blogs.</p>
+                <a href="#">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section with Icons -->
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>
+                    <img src="https://cdn0.iconfinder.com/data/icons/social-network-9/50/22-1024.png" alt="HTML Icon">
+                    <p>HTML</p>
+                </li>
+                <li>
+                    <img src="https://cdn4.iconfinder.com/data/icons/flat-brand-logo-2/512/css3-1024.png" alt="CSS Icon">
+                    <p>CSS</p>
+                </li>
+                <li>
+                    <img src="https://cdn3.iconfinder.com/data/icons/fluent-regular-24px-vol-4/24/ic_fluent_javascript_24_regular-1024.png" alt="JavaScript Icon">
+                    <p>JavaScript</p>
+                </li>
+                <li>
+                    <img src="https://cdn0.iconfinder.com/data/icons/logos-brands-in-colors/128/react-1024.png" alt="React Icon">
+                    <p>React</p>
+                </li>
+                <li>
+                    <img src="https://cdn0.iconfinder.com/data/icons/font-awesome-brands-vol-2/640/node-1024.png" alt="Node.js Icon">
+                    <p>Node.js</p>
+                </li>
+                <li>
+                    <img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-social-github-1024.png" alt="Git Icon">
+                    <p>Git & GitHub</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <form action="#">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Vimal's Portfolio. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
